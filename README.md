@@ -1,6 +1,6 @@
 # c언어로 리눅스 명령어 구현하기
 
-### ls
+### 1. ls
 option: -l, -i
 -l: inode, mode, size도 같이 출력
 -i: inode 같이 출력
