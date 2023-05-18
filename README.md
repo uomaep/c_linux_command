@@ -65,5 +65,13 @@
 
 ![스크린샷 2023-05-18 오후 11 21 43](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/93f6fdae-7f78-40f7-a36d-00760c1544b4)
 
+### 13. mkdir
+- 폴더 생성
+- option: -p
+- p: 하위 디렉토리까지 생성
+
+![스크린샷 2023-05-19 오전 12 07 35](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/1944259e-be7c-4e4c-9d49-38ec1bac8710)
+
+
 
 
