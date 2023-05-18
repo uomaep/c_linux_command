@@ -74,6 +74,12 @@
 
 ![스크린샷 2023-05-19 오전 12 07 35](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/1944259e-be7c-4e4c-9d49-38ec1bac8710)
 
+### 14. pwd
+- 현재 작업 디렉토리 경로 출력
+
+![스크린샷 2023-05-19 오전 1 21 05](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/2af5bfd8-f80f-4a35-974c-42b1a7f8907a)
+
+
 ### 14. nslookup
 - DNS query
 
