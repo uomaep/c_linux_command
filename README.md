@@ -62,8 +62,10 @@
 
 ### 12. rm
 - 파일 삭제
+- option: -r
+- r: 디렉토리 하위 파일 및 디렉토리가 존재해도 recurssive하게 삭제
 
-![스크린샷 2023-05-18 오후 11 21 43](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/93f6fdae-7f78-40f7-a36d-00760c1544b4)
+![스크린샷 2023-05-19 오전 12 25 35](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/c7492e7c-14b0-4d3f-a578-8d2fad8975bc)
 
 ### 13. mkdir
 - 폴더 생성
