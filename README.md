@@ -2,7 +2,7 @@
 
 ### 1. ls
 - 현재 작업 디렉토리의 파일들을 출력
-option: -l, -i (2개)
+- option: -l, -i (2개)
 - l: inode, mode, file size 같이 출력
 - i: inode 같이 출력
 
@@ -10,7 +10,7 @@ option: -l, -i (2개)
 
 ### 2. cat
 - 파일의 내용을 출력
-option: -n
+- option: -n
 - n: 라인 번호를 붙여 출력
 
 ![스크린샷 2023-05-18 오후 2 12 42](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/bda0bb51-2b88-4587-ab1c-368f1e09303d)
@@ -29,3 +29,10 @@ option: -n
 - 파일의 시간 갱신, 빈 파일 생성
 
 ![스크린샷 2023-05-18 오후 3 13 34](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/d27dcfcc-8d6f-4c46-a215-347907d9568e)
+
+### 6. ln
+- 하드링크, 심볼릭 링크 파일 생성
+- option: -s
+- s: 심볼릭 링크 파일 생성
+
+![스크린샷 2023-05-18 오후 3 31 26](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/3f145ad7-08a4-495e-b29a-5fc4ede05469)
