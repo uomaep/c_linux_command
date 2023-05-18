@@ -80,7 +80,7 @@
 ![스크린샷 2023-05-19 오전 1 21 05](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/2af5bfd8-f80f-4a35-974c-42b1a7f8907a)
 
 
-### 14. nslookup
+### 15. nslookup
 - DNS query
 
 ![스크린샷 2023-05-19 오전 1 06 50](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/aecdb198-be61-40ca-8f9d-9a6225802729)
