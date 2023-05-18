@@ -57,4 +57,7 @@
 
 ![스크린샷 2023-05-18 오후 5 15 42](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/4bd29eb6-db64-4522-a2b2-77bca7e1a05f)
 
+### 11. clear
+- 화면 지우기
+
 
