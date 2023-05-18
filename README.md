@@ -20,3 +20,7 @@ option: -n
 
 ![스크린샷 2023-05-18 오전 10 15 28](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/5c2d9abc-2729-4eaa-aa96-ab4a9681e831)
 
+### 4, file
+- 파일의 타입 확인
+
+![스크린샷 2023-05-18 오후 2 54 33](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/71e972f0-cbea-4023-b1a7-3bcd6c184c2a)
