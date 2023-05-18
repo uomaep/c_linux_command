@@ -46,3 +46,9 @@
 - 인수로 전달되는 문자열을 출력
 
 ![스크린샷 2023-05-18 오후 3 57 26](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/12a3d51a-8780-4e5f-af04-9c6e5b82ae51)
+
+### 9. hostname
+- 시스템 이름 확인
+
+![스크린샷 2023-05-18 오후 4 16 01](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/b5c6ba05-1db1-4205-88b0-c5899e42826a)
+
