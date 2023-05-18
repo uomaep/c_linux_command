@@ -36,3 +36,8 @@
 - s: 심볼릭 링크 파일 생성
 
 ![스크린샷 2023-05-18 오후 3 31 26](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/3f145ad7-08a4-495e-b29a-5fc4ede05469)
+
+### 7. unlink
+- 링크 해제
+
+![스크린샷 2023-05-18 오후 3 38 11](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/f0f1332e-d802-4887-8dbe-18f833399837)
