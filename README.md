@@ -10,8 +10,10 @@ option: -l, -i (2개)
 
 ### 2. cat
 - 파일의 내용을 출력
+option: -n
+- n: 라인 번호를 붙여 출력
 
-![스크린샷 2023-05-17 오후 11 06 06](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/149f5fff-6bc5-4e92-a3bf-dae0577f9e98)
+![스크린샷 2023-05-18 오후 2 12 42](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/bda0bb51-2b88-4587-ab1c-368f1e09303d)
 
 ### 3. cp
 - 파일을 복사
