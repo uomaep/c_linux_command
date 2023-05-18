@@ -60,4 +60,10 @@
 ### 11. clear
 - 화면 지우기
 
+### 12. rm
+- 파일 삭제
+
+![스크린샷 2023-05-18 오후 11 21 43](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/93f6fdae-7f78-40f7-a36d-00760c1544b4)
+
+
 
