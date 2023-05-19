@@ -88,6 +88,17 @@
 ### 16. env
 - 환경 변수 목록 출력
 
+### 17. true
+- 성공을 리턴하는 명령어
+
+![스크린샷 2023-05-19 오후 6 06 40](https://github.com/uomaep/c_linux_command/assets/114221785/ecb4ff62-a6bc-4ff0-8184-6d3b03cacb20)
+
+### 18. false
+- 실패를 리턴하는 명령어
+
+![스크린샷 2023-05-19 오후 6 07 26](https://github.com/uomaep/c_linux_command/assets/114221785/bc3375b7-5cf6-4c0e-a0a7-c0445ac0418f)
+
+
 
 
 
