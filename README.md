@@ -85,6 +85,10 @@
 
 ![스크린샷 2023-05-19 오전 1 06 50](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/aecdb198-be61-40ca-8f9d-9a6225802729)
 
+### 16. env
+- 환경 변수 목록 출력
+
+
 
 
 
