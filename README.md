@@ -110,11 +110,13 @@
 
 ![스크린샷 2023-05-19 오후 6 39 05](https://github.com/uomaep/c_linux_command/assets/114221785/2898286f-897a-4273-917a-65ff56c1b871)
 
+### 21. sleep
+- 지정 시간동안 호출 프로세스를 일시 중지
+- option: -s -m -h -d (4개)
+- s: 초(sec)단위
+- m: 분(min)단위
+- h: 시간(hour)단위
+- d: 일(day)단위
 
-
-
-
-
-
-
+![스크린샷 2023-05-19 오후 7 03 38](https://github.com/uomaep/c_linux_command/assets/114221785/f287b5f1-84be-4e76-9e97-e6504be9beb7)
 
