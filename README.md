@@ -98,6 +98,14 @@
 
 ![스크린샷 2023-05-19 오후 6 07 26](https://github.com/uomaep/c_linux_command/assets/114221785/bc3375b7-5cf6-4c0e-a0a7-c0445ac0418f)
 
+### 19. yes
+- 반복 입력 명령어
+- 컴퓨터 성능을 확인할 때 사용
+- 인자 없으면 y를 반복적으로 출력
+
+![스크린샷 2023-05-19 오후 6 13 32](https://github.com/uomaep/c_linux_command/assets/114221785/1ad878c1-8f2c-4cb0-973d-d33c2bd10e78)
+
+
 
 
 
