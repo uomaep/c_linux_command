@@ -105,6 +105,12 @@
 
 ![스크린샷 2023-05-19 오후 6 13 32](https://github.com/uomaep/c_linux_command/assets/114221785/1ad878c1-8f2c-4cb0-973d-d33c2bd10e78)
 
+### 20. date
+- 현재 날짜, 시간을 출력
+
+![스크린샷 2023-05-19 오후 6 39 05](https://github.com/uomaep/c_linux_command/assets/114221785/2898286f-897a-4273-917a-65ff56c1b871)
+
+
 
 
 
