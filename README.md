@@ -10,10 +10,17 @@
 
 ### 2. cat
 - 파일의 내용을 출력
-- option: -n
+- option: -n, -b, -E, -T (4개)
 - n: 라인 번호를 붙여 출력
+- b: 공백 라인은 번호를 붙이지 않으면서 출력
+- E: 라인의 마지막과 공백줄에 $를 출력
+- T: 탭 문자를 ^I으로 바꿔서 출력
 
-![스크린샷 2023-05-18 오후 2 12 42](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/bda0bb51-2b88-4587-ab1c-368f1e09303d)
+<img width="458" alt="스크린샷 2023-06-09 오전 12 04 22" src="https://github.com/uomaep/c_linux_command/assets/114221785/762c7bc2-fb77-49a9-8ab8-fe7aba3415e9">
+<img width="516" alt="스크린샷 2023-06-09 오전 12 04 46" src="https://github.com/uomaep/c_linux_command/assets/114221785/7040ac5a-f44b-403b-a425-b19af4c9275f">
+<img width="509" alt="스크린샷 2023-06-09 오전 12 05 11" src="https://github.com/uomaep/c_linux_command/assets/114221785/3d137c72-0e23-4879-bac7-d156a94c81e6">
+<img width="487" alt="스크린샷 2023-06-09 오전 12 05 42" src="https://github.com/uomaep/c_linux_command/assets/114221785/16978879-3df4-4e54-9de2-516996012d41">
+<img width="493" alt="스크린샷 2023-06-09 오전 12 06 00" src="https://github.com/uomaep/c_linux_command/assets/114221785/1674aea4-9481-4cde-a5d1-bf991118101d">
 
 ### 3. cp
 - 파일을 복사
