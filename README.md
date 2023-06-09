@@ -110,3 +110,8 @@
 - 지정 시간동안 호출 프로세스를 일시 중지
 
 ![스크린샷 2023-05-19 오후 7 03 38](https://github.com/uomaep/c_linux_command/assets/114221785/f287b5f1-84be-4e76-9e97-e6504be9beb7)
+
+### 18. hostname
+- 호스트 이름을 출력
+
+![스크린샷 2023-06-10 오전 1 01 50](https://github.com/uomaep/c_linux_command/assets/114221785/55da4d68-95bc-49b5-ba21-84718a5969ef)
