@@ -8,7 +8,7 @@
 
 ![스크린샷 2023-05-17 오후 10 45 31](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/bba2090f-02d3-4571-a287-bbfc8167f4cc)
 
-### 2. cat
+### 2. cat(5개)
 - 파일의 내용을 출력
 - option: -n, -b, -E, -T (4개)
 - n: 라인 번호를 붙여 출력
@@ -37,7 +37,7 @@
 
 ![스크린샷 2023-05-18 오후 3 13 34](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/d27dcfcc-8d6f-4c46-a215-347907d9568e)
 
-### 6. ln
+### 6. ln(2개)
 - 하드링크, 심볼릭 링크 파일 생성
 - option: -s
 - s: 심볼릭 링크 파일 생성
@@ -67,19 +67,23 @@
 ### 11. clear
 - 화면 지우기
 
-### 12. rm
+### 12. rm(2개)
 - 파일 삭제
 - option: -r
 - r: 디렉토리 하위 파일 및 디렉토리가 존재해도 recurssive하게 삭제
 
 ![스크린샷 2023-05-19 오전 12 25 35](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/c7492e7c-14b0-4d3f-a578-8d2fad8975bc)
 
-### 13. mkdir
+### 13. mkdir(4개)
 - 폴더 생성
-- option: -p
-- p: 하위 디렉토리까지 생성
+- option: -p, -v, -m
+- p: 상위 경로도 함께 생성
+- v: 디렉토리를 생성하고 생성된 디렉토리에 대한 메시지를 출력합니다.
+- m: 디렉토리를 생성할 때 권한을 설정합니다. (defualt : 755)
 
 ![스크린샷 2023-05-19 오전 12 07 35](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/1944259e-be7c-4e4c-9d49-38ec1bac8710)
+![스크린샷 2023-06-09 오후 7 50 36](https://github.com/uomaep/c_linux_command/assets/114221785/6c8a25b9-4561-482a-9b62-8d57d718bada)
+![스크린샷 2023-06-09 오후 7 51 37](https://github.com/uomaep/c_linux_command/assets/114221785/35b43e22-5e8f-44db-a937-5b361005a3d8)
 
 ### 14. pwd
 - 현재 작업 디렉토리 경로 출력
