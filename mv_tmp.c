@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include <unistd.h>
 
 int main(int argc, char* argv[])
@@ -10,20 +8,21 @@ int main(int argc, char* argv[])
     int nread;
 
     if(argc != 3) {
-        fprintf(stderr, "mv [파일] [위치]\n");
-        exit(1);
+        printf("mv [파일] [위치]\n");
+        return 1;
     }
 
-    inFp = fopen(argv[1], "r");
+    inFp = fopen(argv[1], "r"); 
     if(inFp == NULL) {
-        fprintf(stderr, "%s not found\n", argv[1]);
-        exit(1);
+        printf("%s not found\n", argv[1]);
+        return 1;
     }
 
-    outFp = fopen(argv[2], "wb");
+    outFp = fopen(argv[2], "wb"); //w: 쓰기 모드로 파일을 열린다. 파일이 존재한다면 그 내용을 파괴하고 없으면 새로 만든다.
+                                  //b: 이진 모드로 열린다.
     if(outFp == NULL) {
-        fprintf(stderr, "fopen() failed\n");
-        exit(1);
+        printf("fopen() failed\n");
+        return 1;
     }
 
     while((nread = fread(buffer, 1, 1, inFp)) > 0) {
@@ -36,9 +35,9 @@ int main(int argc, char* argv[])
     fclose(inFp);
     fclose(outFp);
 
-    if(unlink(argv[1]) != 0) {
-        fprintf(stderr, "delete fail.\n");
-        exit(1);
+    if(unlink(argv[1]) != 0) { //파일 옮긴 후 원래 파일은 삭제
+        printf("delete fail.\n");
+        return 1;
     }
 
     return 0;
