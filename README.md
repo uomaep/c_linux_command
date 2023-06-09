@@ -27,11 +27,6 @@
 
 ![스크린샷 2023-05-18 오전 10 15 28](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/5c2d9abc-2729-4eaa-aa96-ab4a9681e831)
 
-### 4. file
-- 파일의 타입 확인
-
-![스크린샷 2023-05-18 오후 2 54 33](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/71e972f0-cbea-4023-b1a7-3bcd6c184c2a)
-
 ### 5. touch
 - 파일의 시간 갱신, 빈 파일 생성
 
@@ -53,11 +48,6 @@
 - 인수로 전달되는 문자열을 출력
 
 ![스크린샷 2023-05-18 오후 3 57 26](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/12a3d51a-8780-4e5f-af04-9c6e5b82ae51)
-
-### 9. hostname
-- 시스템 이름 확인
-
-![스크린샷 2023-05-18 오후 4 16 01](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/b5c6ba05-1db1-4205-88b0-c5899e42826a)
 
 ### 10. mv
 - 파일 이동 및 이름 변경
@@ -91,11 +81,6 @@
 ![스크린샷 2023-05-19 오전 1 21 05](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/2af5bfd8-f80f-4a35-974c-42b1a7f8907a)
 
 
-### 15. nslookup
-- DNS query
-
-![스크린샷 2023-05-19 오전 1 06 50](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/aecdb198-be61-40ca-8f9d-9a6225802729)
-
 ### 16. env
 - 환경 변수 목록 출력
 
@@ -123,10 +108,5 @@
 
 ### 21. sleep
 - 지정 시간동안 호출 프로세스를 일시 중지
-- s: 초(sec)단위
-- m: 분(min)단위
-- h: 시간(hour)단위
-- d: 일(day)단위
 
 ![스크린샷 2023-05-19 오후 7 03 38](https://github.com/uomaep/c_linux_command/assets/114221785/f287b5f1-84be-4e76-9e97-e6504be9beb7)
-
