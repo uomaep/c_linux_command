@@ -1,19 +1,29 @@
-#include <stdlib.h>
-#include <string.h>
+#include <stdio.h>
 #include <unistd.h>
 
-int main(int argc, char* argv[])
-{
-    if(argc == 3) {
-        if(link(argv[1], argv[2]) == -1) {
-            exit(1);
+int main(int argc, char* argv[]) {
+    int opt;
+    int s = 0;
+    while((opt = getopt(argc, argv, "s")) != -1) {
+        switch(opt) {
+            case 's':
+                s = 1;
+                break;
+            default:
+                printf("잘못된 옵션\n");
+                return 1;
         }
     }
-    else if(argc == 4 && strcmp(argv[1], "-s") == 0) {
-        if(symlink(argv[2], argv[3]) == -1) {
-            exit(1);
-        } 
+    
+    if(optind == 1) { //옵션이 없을 시
+        if(link(argv[optind], argv[optind + 1]) == -1) {
+            return 1;
+        }
+    } else {
+        if(s && symlink(argv[optind], argv[optind + 1]) == -1) {
+            return 1;
+        }
     }
     
-    exit(0);
+    return 0;
 }
