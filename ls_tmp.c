@@ -1,70 +1,46 @@
 #include <stdio.h>
-#include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
 #include <dirent.h>
 #include <sys/stat.h>
 
-void ls_inode(struct stat buf)
-{
-    printf("%-4d  ", (unsigned int)buf.st_ino);
-}
+#define SIZE 1024
+int main(int argc, char* argv[]) {
+    int opt;
+    int i = 0, a = 0;
+    char buff[SIZE];
+    DIR *dir = NULL;
+    struct dirent *e = NULL;
+    struct stat d_stat; 
 
-void ls_mode(struct stat buf)
-{
-    printf("%-6lo  ", (unsigned long)buf.st_mode);
-}
-
-void ls_fsize(struct stat buf)
-{
-    printf("%-8lld  ", buf.st_size);
-}
-
-void ls_option(struct stat buf, char* option)
-{
-    if(strcmp(option, "-l") == 0) {
-        ls_mode(buf);
-        ls_inode(buf);
-        ls_fsize(buf);
-    }
-    else if(strcmp(option, "-i") == 0) {
-        ls_inode(buf);
-    }
-}
-
-int main(int argc, char *argv[]) 
-{
-    char* cwd = (char*)malloc(sizeof(char)*1024);
-    DIR* dir = NULL;
-    struct dirent* entry;
-    struct stat buf;
-    char option;
-
-    getcwd(cwd, 1024); //현재 작업 디렉토리 경로 구하기
-
-    if((dir = opendir(cwd)) == NULL)
-    {
-        printf("current directory error\n");
-        exit(1);
+    while((opt = getopt(argc, argv, "ia")) != -1) {
+        switch(opt) {
+            case 'i':
+                i = 1;
+                break;
+            case 'a':
+                a = 1;
+                break;
+            default:
+                printf("잘못된 옵션\n");
+                return 1;
+        }
     }
 
-    while((entry = readdir(dir)) != NULL) { 
-        lstat(entry->d_name, &buf);
-        if(S_ISREG(buf.st_mode))
-            printf("%-4s ", "FILE");
-        else if(S_ISDIR(buf.st_mode))
-            printf("%-4s ", "DIR");
-        else
-            printf("%-4s ", "???");
-
-        if(argc > 1)
-            ls_option(buf, argv[1]);
-
-        printf("%s  \n", entry->d_name);
+    getcwd(buff, SIZE);
+    if((dir = opendir(buff)) == NULL) {
+        printf("current directory open error\n");
+        return 1;
     }
 
-    free(cwd);
-    closedir(dir);
+    while((e = readdir(dir)) != NULL) {
+        if(!a && (strcmp(e->d_name, ".") == 0 || strcmp(e->d_name, "..") == 0)) continue;
+        lstat(e->d_name, &d_stat);
+        if(i) printf("%-10d ", (unsigned int)d_stat.st_ino);
+        printf("%-10s\t", e->d_name);
+    }
+    printf("\n");
 
     return 0;
 }
+
