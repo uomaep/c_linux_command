@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <time.h>
 
-char* today(struct tm* t)
+char* today(int wday)
 {
-    switch(t->tm_wday) {
+    switch(wday) {
         case 0:
             return "월";
         case 1:
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 
     t = localtime(&base);
 
-    printf("%d년 %d월 %d일 %s요일 %d시 %d분 %d초\n", 1900 + t->tm_year, t->tm_mon + 1, t->tm_mday + 1, today(t), t->tm_hour, t->tm_min, t->tm_sec);
+    printf("%d년 %d월 %d일 %s요일 %d시 %d분 %d초\n", 1900 + t->tm_year, t->tm_mon + 1, t->tm_mday, today(t->tm_wday - 1), t->tm_hour, t->tm_min, t->tm_sec);
     
     return 0;
 }
