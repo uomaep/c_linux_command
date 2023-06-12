@@ -106,10 +106,10 @@
 
 ![스크린샷 2023-05-19 오후 6 39 05](https://github.com/uomaep/c_linux_command/assets/114221785/2898286f-897a-4273-917a-65ff56c1b871)
 
-### 17. sleep
-- 지정 시간동안 호출 프로세스를 일시 중지
+### 17. rev
+- 내용 거꾸로 출력
 
-![스크린샷 2023-05-19 오후 7 03 38](https://github.com/uomaep/c_linux_command/assets/114221785/f287b5f1-84be-4e76-9e97-e6504be9beb7)
+<img width="423" alt="스크린샷 2023-06-12 오후 1 27 57" src="https://github.com/uomaep/c_linux_command/assets/114221785/e1af864b-fd47-45d0-b06c-27b199046a9b">
 
 ### 18. hostname
 - 호스트 이름을 출력
