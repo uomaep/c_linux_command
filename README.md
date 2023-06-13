@@ -57,12 +57,10 @@
 ### 9. clear
 - 화면 지우기
 
-### 12. rm(2개)
+### 12. rm
 - 파일 삭제
-- option: -r
-- r: 디렉토리 하위 파일 및 디렉토리가 존재해도 recurssive하게 삭제
 
-![스크린샷 2023-05-19 오전 12 25 35](https://github.com/uomaep/JS_Array_Challenge/assets/114221785/c7492e7c-14b0-4d3f-a578-8d2fad8975bc)
+![스크린샷 2023-06-13 오후 1 30 06](https://github.com/uomaep/c_linux_command/assets/114221785/c8a04634-c254-45b0-853f-99f2676fe9e4)
 
 ### 10. mkdir(4개)
 - 폴더 생성
@@ -115,3 +113,8 @@
 - 호스트 이름을 출력
 
 ![스크린샷 2023-06-10 오전 1 01 50](https://github.com/uomaep/c_linux_command/assets/114221785/55da4d68-95bc-49b5-ba21-84718a5969ef)
+
+### 19. sleep
+- 인수로 입력한 시간동안 정지
+
+![스크린샷 2023-06-13 오후 1 31 13](https://github.com/uomaep/c_linux_command/assets/114221785/ac0374c4-3344-4eeb-817c-fc4b7d4a149b)
