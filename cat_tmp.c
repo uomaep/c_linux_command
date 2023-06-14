@@ -60,7 +60,7 @@ int cat(char* filename, int n, int b, int E, int T) {
         while(buff[i] != '\0') {
             if(E && buff[i] == '\n')
                 printf("$\n");
-            else if(T && buff[i] == '\t')
+            if(T && buff[i] == '\t')
                 printf("^I");
             else
                 printf("%c", buff[i]);
