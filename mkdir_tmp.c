@@ -6,7 +6,7 @@
 
 #define SIZE 1024
 
-int mkdirs(char *dir_path);
+int mkdirs(char *dir_path, mode_t mode);
 mode_t string_to_mode(const char* str);
 
 int main(int argc, char* argv[]) {
@@ -45,7 +45,7 @@ int main(int argc, char* argv[]) {
     if(!p && mkdir(argv[optind], mode) == -1 ) {
         printf("mkdir: %s: File exists\n", argv[optind]);
         return 1;
-    } else if(p && mkdirs(argv[optind]) == -1) {
+    } else if(p && mkdirs(argv[optind], mode) == -1) {
         printf("error\n");
         return 1;
     }
@@ -54,7 +54,7 @@ int main(int argc, char* argv[]) {
     return 0;
 }
 
-int mkdirs(char *path) {
+int mkdirs(char *path, mode_t mode) {
     char buff[SIZE];
     char *p_dir = buff;
 
@@ -65,7 +65,7 @@ int mkdirs(char *path) {
     while(*p_dir) {
         if(*p_dir == '/') {
             *p_dir = '\0';
-            if(mkdir(buff, 0777) == -1) {
+            if(mkdir(buff, mode) == -1) {
                 return -1;
             }
             *p_dir = '/';
