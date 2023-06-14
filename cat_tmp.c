@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 #include <unistd.h>
 
 #define SIZE 4096
@@ -27,9 +28,13 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    if(optind == argc) {
-        printf("파일명을 입력해주세요.\n");
-        return 1;
+    if(argc == 1) {
+        char buffer[100];
+        while(fgets(buffer, 100, stdin) != NULL) {
+            buffer[strcspn(buffer, "\n")] = '\0';
+            printf("%s\n", buffer);
+        }
+        return 0;
     }
 
     char* filename = argv[optind];
